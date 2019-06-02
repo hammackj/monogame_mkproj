@@ -1,6 +1,7 @@
 # Monogame Make Project
 
 This is a simple bash script that will generate a Monogame Solution and 3 projects. 
+
     - Game Project, this is used to hold the Program.cs for each platform
     - Shared Game Project, this is used to hold all game code shared across all the platforms you want to use.
     - Engine Project, this is used for all "engine" type code you want to share in other projects
