@@ -1,9 +1,9 @@
 # Monogame Make Project
 
 This is a simple bash script that will generate a Monogame Solution and 3 projects. 
-    1. Game Project, this is used to hold the Program.cs for each platform
-    2. Shared Game Project, this is used to hold all game code shared across all the platforms you want to use.
-    3. Engine Project, this is used for all "engine" type code you want to share in other projects
+    - Game Project, this is used to hold the Program.cs for each platform
+    - Shared Game Project, this is used to hold all game code shared across all the platforms you want to use.
+    - Engine Project, this is used for all "engine" type code you want to share in other projects
 
 Simple enough setup for starting a new project or gamejam. The resulting solution will compile on Windows / Linux and OSX without any issue. I work mostly from OSX but the resulting .sln worked fine in Visual Studio 2019 after making it pull down all the Nuget packages. I am sure it would also work in bash for Windows.
 
