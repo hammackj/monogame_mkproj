@@ -41,7 +41,7 @@ dotnet sln $SOLUTION.sln add $PROJECT_SHARED/$PROJECT_SHARED.csproj
 dotnet sln $SOLUTION.sln add $ENGINE/$ENGINE.csproj
 
 # Reference $ENGINE to $PROJECT
-dotnet add $PROJECT/$PROJECT.csproj reference $ENGINE/$ENGINE.csproj
+dotnet add $PROJECT_SHARED/$PROJECT_SHARED.csproj reference $ENGINE/$ENGINE.csproj
 dotnet add $PROJECT/$PROJECT.csproj reference $PROJECT_SHARED/$PROJECT_SHARED.csproj
 
 # Add Monogame references, Note: The Latest versions seem to have a OpenAL Library bug fixed in 3.7.1
